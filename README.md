@@ -6,7 +6,7 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 ## ✨ Features
 
 - **Automatic Installation**: Installs GNS3 and all its necessary dependencies.
-- **Compatibility**: Tested on Fedora 41 and Fedora 42.
+- **Compatibility**: Tested on Fedora 41 and Fedora 42 (I haven't tested other versions).
 - **Ease of Use**: No manual configuration required.
 
 ## 📋 Prerequisites

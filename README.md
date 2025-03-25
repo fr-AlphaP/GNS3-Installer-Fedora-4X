@@ -24,13 +24,13 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
    - Open a terminal and navigate to the directory containing the script.
    - Run the following command to make the script executable:
      ```bash
-     chmod +x install_gns3.sh
+     chmod +x script.sh
      ```
 
 3. **Run the Script**:
    - Execute the script with administrative privileges:
      ```bash
-     sudo ./install_gns3.sh
+     sudo ./script.sh
      ```
 
 4. **Follow the Instructions**:

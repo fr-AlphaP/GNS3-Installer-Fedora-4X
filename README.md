@@ -18,7 +18,7 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 ## 🛠️ Usage Instructions
 
 1. **Download the Script**:
-   - Clone this repository or download the script directly to your Fedora machine.
+   - Clone this repository to your Fedora machine.
    - Or download it here : [GNS3-Installer-Fedora-4X Releases](https://github.com/AlphaProxi/GNS3-Installer-Fedora-4X/releases)
 
 2. **Make the Script Executable**:

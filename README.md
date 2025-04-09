@@ -47,6 +47,8 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 - **GNS3 Repository Cloning**: Downloads GUI and server components of GNS3 from GitHub.
 - **Dynamips Installation**: Compiles and installs Dynamips, a Cisco router emulator used by GNS3.
 - **Installation of xterm and telnet**: For  compatibility with GNS3 consoles.
+- **Installation of Docker**
+- **Installation of a Docker image that simulates a Linux computer for GNS3**
 
 ## 📝 Notes
 

@@ -42,7 +42,7 @@ install() {
     docker images
 
     cd /home/"$ORIGINAL_USER"/.local/share/applications/
-    wget https://raw.githubusercontent.com/AlphaProxi/GNS3-Installer-Fedora-4X/main/gns3.png
+    wget https://raw.githubusercontent.com/fr-AlphaP/GNS3-Installer-Fedora-4X/main/gns3.png
     echo "[Desktop Entry]
     Name=GNS3
     Exec=gns3

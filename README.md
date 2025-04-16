@@ -11,8 +11,15 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 
 ## 📋 Prerequisites
 
-- Fedora 41 or 42 operating system.
-- Gnome 47 ✅
+- Operating system supported :
+
+| Versions supportées | Gnome | KDE Plasma|
+|----------------------|-------|-----|
+| Fedora 42           | ✅     | ❓   |
+| Fedora 41            | ✅     | ❓   |
+| Fedora 40            | ✅     | ❓   |
+
+
 - Internet access to download necessary packages.
 - **Administrative privileges to run the script.**
 

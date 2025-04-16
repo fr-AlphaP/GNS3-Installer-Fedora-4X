@@ -1,4 +1,4 @@
-# 🌐 Automatic GNS3 Installation Script for Fedora (4X)
+# 🌐 Automatic GNS3 Installation Script for Fedora 
 
 This Bash script automates the installation of GNS3 on Fedora 41 and 42 systems. 
 GNS3 is a powerful tool for network simulation, allowing users to create complex network topologies using both virtual and physical devices. 🖥️🌐

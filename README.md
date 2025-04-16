@@ -13,7 +13,7 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 
 - Operating system supported :
 
-| Versions supportées | Gnome | KDE Plasma|
+| Versions | Gnome | KDE Plasma|
 |----------------------|-------|-----|
 | Fedora 42           | ✅     | ❓   |
 | Fedora 41            | ✅     | ❓   |

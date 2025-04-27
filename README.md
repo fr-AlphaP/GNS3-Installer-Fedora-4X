@@ -64,7 +64,7 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 
 ## **Issue with GNS3 GUI :**
 
-- If the elements of GNS3 windows including font, icons... are really small :
+- If the elements of GNS3 window including font, icons... are really small, to fix it, follow these steps :
 
 - Edit the .bashrc file :
 ```nano ~/.bashrc```

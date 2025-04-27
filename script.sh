@@ -4,7 +4,7 @@ install() {
     echo "Installation in progress..."
     sudo dnf -y install git gcc cmake flex bison python3 python3-devel python3-pip \
         python3-setuptools python3-PyQt5 python3-zmq elfutils-libelf-devel libuuid-devel \
-        libpcap-devel wireshark qemu-kvm
+        libpcap-devel wireshark qemu-kvm xterm telnet busybox ubridge
 
     mkdir -p ~/.GNS3
     cd ~/.GNS3
@@ -27,10 +27,7 @@ install() {
     cmake ..
     make
     make install
-
-    dnf install xterm telnet
-
-    dnf install busybox
+    
     sudo dnf -y install dnf-plugins-core
     sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
     sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin

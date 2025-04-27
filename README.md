@@ -61,3 +61,15 @@ GNS3 is a powerful tool for network simulation, allowing users to create complex
 
 - Soon, I will upload the uninstallation script.
 - Have a great time using it!
+
+## **Issue with GNS3 GUI :**
+
+- If the elements of GNS3 windows including font, icons... are really small :
+
+- Edit the .bashrc file :
+```nano ~/.bashrc```
+
+- Add this at the end :
+```export QT_SCALE_FACTOR=1.5 gns3```
+
+

@@ -35,6 +35,7 @@ install() {
     sudo docker run hello-world
     sudo usermod -aG docker $USER
     sudo usermod -aG wireshark $USER
+    newgrp docker
     docker pull registry.iutbeziers.fr/debianiut:latest
     docker images
 

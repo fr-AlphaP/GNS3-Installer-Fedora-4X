@@ -6,15 +6,14 @@ install() {
         python3-setuptools python3-PyQt5 python3-zmq elfutils-libelf-devel libuuid-devel \
         libpcap-devel wireshark qemu-kvm xterm telnet busybox ubridge
 
+    # GNS3
     mkdir -p ~/.GNS3
     cd ~/.GNS3
     git clone https://github.com/GNS3/gns3-gui.git
     git clone https://github.com/GNS3/gns3-server.git
-
     cd gns3-gui
     sudo python3 setup.py install
     cd ..
-
     cd gns3-server
     sudo python3 setup.py install
 
@@ -27,17 +26,26 @@ install() {
     cmake ..
     make
     make install
-    
+
+    # Docker
     sudo dnf -y install dnf-plugins-core
     sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
     sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     sudo systemctl enable --now docker
     sudo docker run hello-world
+
+    # Permissions 
+
+    sudo usermod -aG docker $ORIGINAL_USER
+    sudo usermod -aG wireshark $ORIGINAL_USER
     sudo usermod -aG docker $USER
     sudo usermod -aG wireshark $USER
-    newgrp docker
+
+    # VPCs
     docker pull registry.iutbeziers.fr/debianiut:latest
     docker images
+    # Script -> Fedora 42
+    sudo dnf -y install util-linux-script
 
     cd /home/"$ORIGINAL_USER"/.local/share/applications/
     wget https://raw.githubusercontent.com/fr-AlphaP/GNS3-Installer-Fedora-4X/main/gns3.png
